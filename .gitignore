@@ -1,0 +1,6 @@
+.env
+.venv
+__pycahe__
+chroma_db/
+data/
+poetry.lock

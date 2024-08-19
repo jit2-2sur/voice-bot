@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "voice-bot"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">3.11,<3.12"
+python-dotenv = "^1.0.1"
+llama-index = "0.10.64"
+llama-index-llms-gemini = "^0.2.0"
+chromadb = "^0.5.5"
+llama-index-embeddings-gemini = "^0.1.8"
+llama-index-vector-stores-chroma = "^0.1.10"
+pyaudio = "^0.2.14"
+fastapi = "^0.112.1"
+uvicorn = "^0.30.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
